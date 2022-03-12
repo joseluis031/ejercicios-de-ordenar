@@ -1,17 +1,18 @@
-from dicotomia import *
+from dicotomica import *
 
 from topologia import *
 
 from especificaciones import *
 
-if __name__=="__main__:
+if __name__=="__main__":
 
-v = int(input("Elija el ejercicio que desea ejecutar(1-3): "))
-if v == 1:
-  from trabajo import dicotomia
-elif v == 2:
-  from trabajo import topologia
-elif v == 3:
-  from trabajo import especificaciones
-else:
-  print("Introduzcaun numero del 1 al 3 por favor:")
+from Trabajo.dicotomica import dicotomia, dicot
+print("Ejercicio 1a")
+tabla = [3,5,1,8,9,2,0,7,6,4]
+print(tabla)
+resultado = dicotomia(tabla)
+  print("La tabla ordenada es: {}".format(resultado.ordenar()))
+
+print("Ejercico 1b")
+final = dicot(tabla)
+  print ("La tabla ordenada a partir de una lista vacia es {}".format(final.ordenar_lista()))
