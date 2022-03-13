@@ -21,4 +21,4 @@ if __name__=="__main__":
   print ("Ejercicio 2")
   L = [3,14,1,9,6,5,8,10,2]
   resultado = Lista(L)
-  print ("El resultado es {}".format(resultado.ordenacion(L)))
+  print ("El resultado es {}".format(resultado.ordenacion()))
