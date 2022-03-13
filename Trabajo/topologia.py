@@ -12,4 +12,4 @@ class Lista:
 if __name__ == "__main__":  
     L = [3,14,1,9,6,5,8,10,2]
     resultado = Lista(L)
-    print ("El resultado es {}".format(resultado.ordenacion(L)))
+    print ("El resultado es {}".format(resultado.ordenacion()))
