@@ -9,7 +9,7 @@ class Lista:
                    self.L[j],self.L[j+1],self.L[j]
         return self.L
     
-if __name__ == "__main__":  
+if __name__ == "__main__":  #no consigo que se ordene la lista
     L = [3,14,1,9,6,5,8,10,2]
     resultado = Lista(L)
     print ("El resultado es {}".format(resultado.ordenacion()))
