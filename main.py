@@ -16,3 +16,10 @@ resultado = dicotomia(tabla)
 print("Ejercico 1b")
 final = dicot(tabla)
   print ("La tabla ordenada a partir de una lista vacia es {}".format(final.ordenar_lista()))
+
+from Trabajo.topologia import Lista
+    print ("Ejercicio 2")
+    vector = [3,14,1,9,6,5,8,10,2]
+    resultado = Lista(vector)
+    #Mostramos el resultado por pantalla
+    print ("El resultado es {}".format(resultado.ordenacion()))
