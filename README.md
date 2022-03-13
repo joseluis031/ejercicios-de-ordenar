@@ -45,7 +45,7 @@ if __name__ == "__main__":
             for j in range(len(self.L)-1):
                 if self.L[j]>self.L[j+1]:
                    print("Intercambio {} por {} ".format(self.L[j], self.L[j+1]))
-                   self.L[j],self.L[j+1],self.L[j]
+                   self.L[j],self.L[j+1]=self.L[j+1],self.L[j]
         return self.L
     
 if __name__ == "__main__":  #no consigo que se ordene la lista
